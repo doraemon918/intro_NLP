@@ -47,6 +47,7 @@
                 }]
             };
             
+<<<<<<< HEAD
             collData['relation_types'] = [ {
                 type     : 'future',
                 labels   : ['future', 'fut'],
@@ -242,6 +243,11 @@
             }];
             
             var docData={"text": "mother does not have breast cancer", "entities": [["T0", "Target", [[21.0, 34.0]]], ["T1", "Modifier", [[12.0, 20.0]]], ["T2", "Modifier", [[0.0, 6.0]]]], "relations": [["R0", "definite_negated_existence", [["Modifier", "T1"], ["Target", "T0"]]], ["R1", "family", [["Modifier", "T2"], ["Target", "T0"]]]]}
+=======
+            collData['relation_types'] = [ ];
+            
+            var docData={"text": "on operative day three, the patient fever was detected with temperature 101.5 f.\nafter 3 days no fever was detected.\npatient came back for a follow up, denies fever.", "entities": [["T0", "Target", [[36.0, 41.0]]], ["T1", "Target", [[72.0, 79.0]]], ["T2", "Target", [[97.0, 102.0]]], ["T3", "Modifier", [[94.0, 96.0]]], ["T4", "Target", [[159.0, 164.0]]], ["T5", "Modifier", [[152.0, 158.0]]]], "relations": [["R0", "definite_negated_existence", [["Modifier", "T3"], ["Target", "T2"]]], ["R1", "definite_negated_existence", [["Modifier", "T5"], ["Target", "T4"]]]]}
+>>>>>>> 2ca4523c2bd2e5338818c5a35e3f1f4e2d0585b9
             
             </script>
             <p>Rendering: context_graph.html ...</p>
