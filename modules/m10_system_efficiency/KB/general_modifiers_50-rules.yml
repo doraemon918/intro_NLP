@@ -1,0 +1,299 @@
+Comments: ''
+Direction: backward
+Lex: are ruled out
+Regex: ''
+Type: DEFINITE_NEGATED_EXISTENCE
+---
+Comments: ''
+Direction: backward
+Lex: be ruled out
+Regex: ''
+Type: INDICATION
+---
+Comments: ''
+Direction: backward
+Lex: being ruled out
+Regex: ''
+Type: INDICATION
+---
+Comments: ''
+Direction: backward
+Lex: can be ruled out
+Regex: ''
+Type: DEFINITE_NEGATED_EXISTENCE
+---
+Comments: ''
+Direction: backward
+Lex: cannot be excluded
+Regex: ''
+Type: AMBIVALENT_EXISTENCE
+---
+Comments: ''
+Direction: backward
+Lex: cannot totally be excluded
+Regex: ''
+Type: PROBABLE_NEGATED_EXISTENCE
+---
+Comments: ''
+Direction: backward
+Lex: could be ruled out
+Regex: ''
+Type: DEFINITE_NEGATED_EXISTENCE
+---
+Comments: ''
+Direction: backward
+Lex: free
+Regex: ''
+Type: DEFINITE_NEGATED_EXISTENCE
+---
+Comments: ''
+Direction: backward
+Lex: has been ruled out
+Regex: ''
+Type: DEFINITE_NEGATED_EXISTENCE
+---
+Comments: ''
+Direction: backward
+Lex: have been ruled out
+Regex: ''
+Type: DEFINITE_NEGATED_EXISTENCE
+---
+Comments: ''
+Direction: backward
+Lex: is in the differential
+Regex: is\sin\sthe\sdifferential
+Type: AMBIVALENT_EXISTENCE
+---
+Comments: ''
+Direction: backward
+Lex: is negative
+Regex: (is|was) negative
+Type: DEFINITE_NEGATED_EXISTENCE
+---
+Comments: ''
+Direction: backward
+Lex: is not excluded
+Regex: (is|was|are|were)\snot\sexcluded
+Type: AMBIVALENT_EXISTENCE
+---
+Comments: 2/28/2013; added definitely; removed ed
+Direction: backward
+Lex: is not entirely excluded
+Regex: (is|was|are|were|does)\snot\s(entirely|totally|definitely|completely\s) excluded
+Type: PROBABLE_NEGATED_EXISTENCE
+---
+Comments: ''
+Direction: backward
+Lex: is ruled out
+Regex: ''
+Type: DEFINITE_NEGATED_EXISTENCE
+---
+Comments: ''
+Direction: backward
+Lex: is to be ruled out
+Regex: ''
+Type: INDICATION
+---
+Comments: ''
+Direction: backward
+Lex: is ruled out
+Regex: ''
+Type: DEFINITE_NEGATED_EXISTENCE
+---
+Comments: ''
+Direction: backward
+Lex: might be ruled out
+Regex: ''
+Type: PROBABLE_NEGATED_EXISTENCE
+---
+Comments: ''
+Direction: backward
+Lex: must be ruled out
+Regex: ''
+Type: DEFINITE_NEGATED_EXISTENCE
+---
+Comments: ''
+Direction: backward
+Lex: not been ruled out
+Regex: ''
+Type: INDICATION
+---
+Comments: 3/22/2013
+Direction: backward
+Lex: not definitively seen
+Regex: not definitively (seen|visualized)
+Type: PROBABLE_NEGATED_EXISTENCE
+---
+Comments: ''
+Direction: backward
+Lex: not excluded
+Regex: not\s(excluded|ruled\sout)
+Type: AMBIVALENT_EXISTENCE
+---
+Comments: ''
+Direction: backward
+Lex: now measuring
+Regex: ''
+Type: HISTORICAL
+---
+Comments: ''
+Direction: backward
+Lex: ought to be ruled out
+Regex: ''
+Type: INDICATION
+---
+Comments: 3/22/2013
+Direction: backward
+Lex: progressed
+Regex: ''
+Type: HISTORICAL
+---
+Comments: ''
+Direction: backward
+Lex: protocol
+Regex: ''
+Type: INDICATION
+---
+Comments: ''
+Direction: backward
+Lex: resolved
+Regex: ''
+Type: HISTORICAL
+---
+Comments: ''
+Direction: backward
+Lex: should be ruled out
+Regex: ''
+Type: INDICATION
+---
+Comments: 4/29/2013
+Direction: backward
+Lex: suspected
+Regex: ''
+Type: PROBABLE_EXISTENCE
+---
+Comments: ''
+Direction: bidirectional
+Lex: unlikely
+Regex: ''
+Type: DEFINITE_NEGATED_EXISTENCE
+---
+Comments: ''
+Direction: backward
+Lex: varying ages
+Regex: ''
+Type: HISTORICAL
+---
+Comments: ''
+Direction: backward
+Lex: was ruled out
+Regex: ''
+Type: DEFINITE_NEGATED_EXISTENCE
+---
+Comments: ''
+Direction: backward
+Lex: will be ruled out
+Regex: ''
+Type: INDICATION
+---
+Comments: 2/28/2013
+Direction: backward
+Lex: would not be expected
+Regex: ''
+Type: PROBABLE_NEGATED_EXISTENCE
+---
+Comments: ''
+Direction: bidirectional
+Lex: acute
+Regex: ''
+Type: ACUTE
+---
+Comments: ''
+Direction: bidirectional
+Lex: again
+Regex: ''
+Type: HISTORICAL
+---
+Comments: ''
+Direction: bidirectional
+Lex: age indeterminate
+Regex: ''
+Type: HISTORICAL
+---
+Comments: ''
+Direction: bidirectional
+Lex: appear
+Regex: (\bappear\b|\bappears\b)
+Type: PROBABLE_EXISTENCE
+---
+Comments: 2/28/2013
+Direction: bidirectional
+Lex: cannot be completely excluded
+Regex: cannot\sbe\s((entirely|completely|totally)\s)?(excluded|ruled out)
+Type: PROBABLE_NEGATED_EXISTENCE
+---
+Comments: 2/28/2013
+Direction: bidirectional
+Lex: cannot be evaluated
+Regex: ''
+Type: AMBIVALENT_EXISTENCE
+---
+Comments: '2/28/2013; chronicity: make regular expression to capture variations'
+Direction: bidirectional
+Lex: chronic
+Regex: \bchronic[a-z]*\b
+Type: HISTORICAL
+---
+Comments: ''
+Direction: bidirectional
+Lex: diminished
+Regex: ''
+Type: HISTORICAL
+---
+Comments: ''
+Direction: bidirectional
+Lex: equivocal
+Regex: ''
+Type: PROBABLE_EXISTENCE
+---
+Comments: ''
+Direction: bidirectional
+Lex: evaluation
+Regex: ''
+Type: INDICATION
+---
+Comments: ''
+Direction: bidirectional
+Lex: evolving
+Regex: ''
+Type: HISTORICAL
+---
+Comments: ''
+Direction: bidirectional
+Lex: healing
+Regex: \b(healing|healed)\b
+Type: HISTORICAL
+---
+Comments: 4/2013
+Direction: bidirectional
+Lex: improved
+Regex: improved|improving|improvement
+Type: HISTORICAL
+---
+Comments: 4/29/2013
+Direction: bidirectional
+Lex: incompletely evaluated
+Regex: ''
+Type: AMBIVALENT_EXISTENCE
+---
+Comments: ''
+Direction: bidirectional
+Lex: interval change
+Regex: ''
+Type: HISTORICAL
+---
+Comments: 4/29/2013
+Direction: bidirectional
+Lex: interval increase
+Regex: (interval)\b[\d\D\s]*increase
+Type: HISTORICAL
