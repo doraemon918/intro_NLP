@@ -1,0 +1,48 @@
+<html>
+<h1>wrapperPyConText</h1>
+wrapperPyConText is a wrapper that allows to use pipeUtils framework.
+
+<h2>Classes and functions</h2>
+
+<h3>ConTextPipe</h3>
+pipeline to work with pyConText
+    <pre>
+        from wrapperPyConText imprt ConTextPipe
+        context_pipe = ConTextPipe(target_rules, context_rules)
+    </pre>
+
+<h4>ConTextPipe:Attributes</h4>
+<ul>
+    <li><b>targets</b> - can be either a sting that outlines the rules or a path to the file with rules in tsv or csv format. </li>
+    <li><b>modifiers</b> - can be either a string that outlines the rules or a path to the file with rules in tsv or csv format.</li>
+</ul>
+
+<h4>ConTextPipe:Methods</h4>
+<ul>
+    <li>process method accepts Annotation that specifies the sentence and the string that contains the full document text</li>
+        <pre>context_annotations = context_pipe.process(sentence_annotation, doc_text) </pre>
+  <br>  the method returns new annotations that resulted from processing. If no new annotaitons were created, the returned list will be empty.
+
+    
+    <li><b>convertMarkupsAnnotations(markups, offset=0)</b> - The method returns a list of annotations that result from pyConText in a simplified way. It uses pipeUtils definition of Annotation and Document.
+    
+    <pre>
+    from pipeUtils import Annotation
+    from pipeUtils import Document
+    
+    doc=Document(text=doc_text)
+    .. Split document into sentences ..
+    for sentence in sentences:
+        sentence_text=doc_text[sentence.begin:sentence.end].lower()
+        # Process every sentence by adding markup
+        m = markup_sentence(sentence_text, modifiers=self.modifiers, targets=self.targets)
+        # add new annotation to Document object
+        doc.annotations.extend(convertMarkupsAnnotations(m, offset=sentence.begin))
+    </pre>
+        
+    </li>
+</ul>
+    <br>
+    <br>
+    <br>
+</html>
